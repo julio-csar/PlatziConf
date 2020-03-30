@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hourItemScheduleSize">30sp</dimen>
+    <dimen name="ampmItemScheduleSize">20sp</dimen>
+    <dimen name="conferenceItemScheduleTextSize">20sp</dimen>
+    <dimen name="speakerItemScheduleTextSize">15sp</dimen>
+</resources>
