@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="ivHomeHeight">150dp</dimen>
+    <dimen name="titleHomeSize">20sp</dimen>
+    <dimen name="subtitleHomeMargin">10dp</dimen>
+    <dimen name="descriptionHomeMargin">10dp</dimen>
+    <dimen name="descriptionHomeSize">15sp</dimen>
     <dimen name="toolbarHeight">30dp</dimen>
     <dimen name="cardCornerSpeaker">5dp</dimen>
     <dimen name="ivSpeakerHeight">120dp</dimen>
