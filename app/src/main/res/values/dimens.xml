@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <dimen name="cardCornerRadius">4dp</dimen>
     <dimen name="ivHomeHeight">150dp</dimen>
     <dimen name="titleHomeSize">20sp</dimen>
@@ -9,4 +10,10 @@
     <dimen name="toolbarHeight">30dp</dimen>
     <dimen name="cardCornerSpeaker">5dp</dimen>
     <dimen name="ivSpeakerHeight">120dp</dimen>
+    <dimen name="hourItemScheduleSize">30sp</dimen>
+    <dimen name="ampmItemScheduleSize">20sp</dimen>
+    <dimen name="conferenceItemScheduleTextSize">20sp</dimen>
+    <dimen name="speakerItemScheduleTextSize">15sp</dimen>
+
+
 </resources>
