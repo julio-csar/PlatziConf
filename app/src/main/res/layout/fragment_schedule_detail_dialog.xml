@@ -33,6 +33,7 @@
                     android:layout_height="200dp">
 
                     <ImageView
+                        tools:src="@drawable/platzi_conf_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"/>
