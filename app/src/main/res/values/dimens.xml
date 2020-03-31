@@ -2,4 +2,6 @@
 <resources>
 
     <dimen name="toolbarHeight">30dp</dimen>
+    <dimen name="cardCornerSpeaker">5dp</dimen>
+    <dimen name="ivSpeakerHeight">120dp</dimen>
 </resources>
