@@ -2,7 +2,9 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -22,6 +24,15 @@
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <fragment
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:id="@+id/fragMainContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bnMainMenu"
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true"/>
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bnMainMenu"
             android:layout_width="match_parent"
