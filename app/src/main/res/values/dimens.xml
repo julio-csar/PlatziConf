@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
     <dimen name="cardCornerRadius">4dp</dimen>
     <dimen name="ivHomeHeight">150dp</dimen>
     <dimen name="titleHomeSize">20sp</dimen>
@@ -15,5 +14,6 @@
     <dimen name="conferenceItemScheduleTextSize">20sp</dimen>
     <dimen name="speakerItemScheduleTextSize">15sp</dimen>
 
+    <dimen name="altoLogoPlatzi">45dp</dimen>
 
 </resources>
