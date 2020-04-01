@@ -16,6 +16,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <FrameLayout
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -33,7 +34,7 @@
                     android:layout_height="200dp">
 
                     <ImageView
-                        tools:src="@drawable/platzi_conf_2"
+                        android:src="@drawable/platzi_conf_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"/>
@@ -63,6 +64,7 @@
                     app:cardElevation="1dp"
                     android:layout_margin="15dp">
                     <LinearLayout
+                        android:gravity="center_horizontal"
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -85,11 +87,12 @@
                             android:textStyle="bold"
                             tools:text="Nombre expositor"/>
                         <TextView
+                            android:background="@drawable/shape_topic"
                             android:id="@+id/tvScheduleDetailTag"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/colorWhite"
                             android:textSize="12sp"
                             tools:text="Tag"
                             android:layout_margin="5dp"/>

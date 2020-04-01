@@ -16,7 +16,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <FrameLayout
-        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -30,6 +30,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:layout_marginTop="20dp"
                     android:id="@+id/ivSpeakerDetailImage"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ivHomeHeight"
@@ -39,7 +40,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="10dp"
                     app:cardElevation="1dp">
 
                     <LinearLayout
@@ -58,7 +59,7 @@
                             tools:text="Nombre expositor" />
 
                         <TextView
-                            android:id="@+id/tvSpeakerDetalTitle"
+                            android:id="@+id/tvSpeakerDetailTitle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
@@ -87,9 +88,7 @@
                             android:id="@+id/tvSpeakerDetailDescription"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="@dimen/descriptionHomeMargin"
-                            android:layout_marginTop="@dimen/descriptionHomeMargin"
-                            android:layout_marginRight="@dimen/descriptionHomeMargin"
+                            android:layout_margin="@dimen/descriptionHomeMargin"
                             android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/descriptionHomeSize"
                             tools:text="@tools:sample/lorem/random" />

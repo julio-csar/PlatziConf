@@ -1,16 +1,11 @@
-package com.julio.platziconf
+package com.julio.platziconf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
-import com.google.firebase.firestore.FirebaseFirestore
-import com.julio.platziconf.model.Conference
-import com.julio.platziconf.model.Speaker
+import com.julio.platziconf.R
 import kotlinx.android.synthetic.main.activity_main.*
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,6 +17,8 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun configNav(){
-        NavigationUI.setupWithNavController(bnMainMenu, Navigation.findNavController(this,R.id.fragMainContent))
+        NavigationUI.setupWithNavController(bnMainMenu, Navigation.findNavController(this,
+            R.id.fragMainContent
+        ))
     }
 }
